@@ -1,0 +1,13 @@
+#!/usr/bin/env Rscript
+
+# Command-line interface for dawgtoolsr
+# Usage: dawgtoolsr <command> [options]
+
+# Load the package
+library(dawgtoolsr)
+
+# Get command line arguments
+args <- commandArgs(trailingOnly = TRUE)
+
+# Call the main function
+main(args)
